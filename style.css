@@ -59,6 +59,11 @@ img.slide{
     /* column-gap: 100px; */
 }
 
+.footer-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
 
 
 @media (max-width:510px){
